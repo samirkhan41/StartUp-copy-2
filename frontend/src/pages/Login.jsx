@@ -243,7 +243,7 @@ export default function Login() {
               </p>
               <button
                 type="button"
-                onClick={() => window.open("http://localhost:5175", "_blank")}
+                onClick={() => window.open("https://startup-copy-2-admin.onrender.com/", "_blank")}
                 className="text-[9px] font-black uppercase tracking-widest text-green-400 border border-green-500/20 bg-green-500/5 px-3 py-1.5 rounded-lg hover:bg-green-500/15 transition duration-300 flex items-center gap-1"
               >
                 <Zap size={10} /> Admin
