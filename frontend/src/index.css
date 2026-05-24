@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.-rotateX-60 {
+  transform: rotateX(60deg);
+}
+
+/* ========================================================== */
+/*   TeesX E-Commerce Dynamic Light Theme Global Overrides   */
+/* ========================================================== */
+
+:root:not(.dark) {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-color: #e2e8f0;
+  --bg-input: #f1f5f9;
+}
+
+/* Set HTML and body backgrounds */
+:root:not(.dark) html,
+:root:not(.dark) body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+/* Force override dark tailwind utilities to beautiful slate light themes */
+:root:not(.dark) .bg-\[\#02060d\] {
+  background-color: #f8fafc !important;
+}
+
+:root:not(.dark) .bg-\[\#0a0a0a\] {
+  background-color: #f8fafc !important;
+}
+
+:root:not(.dark) .bg-\[\#020617\] {
+  background-color: #f8fafc !important;
+}
+
+:root:not(.dark) .bg-\[\#0f172a\]\/80 {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05) !important;
+}
+
+:root:not(.dark) .bg-\[\#030812\]\/90 {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-color: #e2e8f0 !important;
+}
+
+:root:not(.dark) .bg-\[\#050b14\] {
+  background-color: #ffffff !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02) !important;
+  border-color: #e2e8f0 !important;
+}
+
+:root:not(.dark) .bg-\[\#050b14\]\/95 {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-color: #e2e8f0 !important;
+}
+
+:root:not(.dark) .text-white {
+  color: #0f172a !important;
+}
+
+:root:not(.dark) .text-gray-400 {
+  color: #475569 !important;
+}
+
+:root:not(.dark) .text-gray-200 {
+  color: #1e293b !important;
+}
+
+:root:not(.dark) .text-gray-300 {
+  color: #334155 !important;
+}
+
+:root:not(.dark) .text-gray-500 {
+  color: #64748b !important;
+}
+
+:root:not(.dark) .border-white\/5 {
+  border-color: #e2e8f0 !important;
+}
+
+:root:not(.dark) .border-white\/10 {
+  border-color: #cbd5e1 !important;
+}
+
+:root:not(.dark) .bg-white\/5 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+:root:not(.dark) .bg-white\/\[0\.04\] {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+:root:not(.dark) .bg-white\/\[0\.02\] {
+  background-color: #f8fafc !important;
+}
+
+:root:not(.dark) .bg-white\/\[0\.01\] {
+  background-color: #f8fafc !important;
+}
+
+:root:not(.dark) .bg-black\/85 {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  border-color: #e2e8f0 !important;
+}
+
+:root:not(.dark) .bg-black\/90 {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-color: #cbd5e1 !important;
+}
+
+:root:not(.dark) .bg-black\/20 {
+  background-color: #f1f5f9 !important;
+  border-color: #e2e8f0 !important;
+}
+
+:root:not(.dark) input,
+:root:not(.dark) select,
+:root:not(.dark) textarea {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+:root:not(.dark) input::placeholder,
+:root:not(.dark) textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Custom list item hover styling in light mode */
+:root:not(.dark) .hover\:bg-white\/5:hover {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+:root:not(.dark) .hover\:text-white:hover {
+  color: #0f172a !important;
+}
+
+/* Chatbot drawer adjustments for light theme */
+:root:not(.dark) .bg-\[\#0a122c\] {
+  background-color: #ffffff !important;
+  border-color: #e2e8f0 !important;
+}
+
+:root:not(.dark) .bg-\[\#152347\] {
+  background-color: #f1f5f9 !important;
+}
