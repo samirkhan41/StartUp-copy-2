@@ -20,7 +20,7 @@ app.use(cookieParser())
 
 // Build CORS origins from env (comma-separated) + localhost defaults
 const defaultOrigins = [
-  "http://localhost:5173",
+  "https://startup-copy-2-frontend.onrender.com",
   "http://localhost:5174",
   "http://localhost:5175"
 ]
