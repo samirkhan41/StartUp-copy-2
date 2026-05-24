@@ -22,7 +22,7 @@ app.use(cookieParser())
 const defaultOrigins = [
   "https://startup-copy-2-frontend.onrender.com",
   "http://localhost:5174",
-  "http://localhost:5175"
+  "https://startup-copy-2-admin.onrender.com"
 ]
 const envOrigins = process.env.FRONTEND_URLS
   ? process.env.FRONTEND_URLS.split(',').map(url => url.trim()).filter(Boolean)
