@@ -8,7 +8,7 @@ The project focuses on building a real-world e-commerce system with a responsive
 
 ## 🚀 Live Project
 
-🌐 **Website:** https://teesx.shop
+🌐 **Website:** https://startup-copy-2-frontend.onrender.com/
 
 ---
 
